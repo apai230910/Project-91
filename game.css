@@ -1,0 +1,47 @@
+body
+{
+	background: rgba(255, 0, 0, 0.685);
+}
+
+	.login_div
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		border: 5px solid black;
+		width: 50%;
+	}
+
+
+#player_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	border: 2px solid black;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.btn_hover {
+	width: 33%;
+	border: 3px solid black;
+	transition-duration: 2s;
+}
+.btn_hover:hover {
+	width: 50%;
+}
